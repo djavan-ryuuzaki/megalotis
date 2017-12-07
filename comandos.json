@@ -1,0 +1,28 @@
+{
+"Prefixo":"!",
+"proibidas":"palavras proibidas aqui",
+"modulos":[
+    {
+      "nome"    :"Ping",
+      "metodos" :[
+          {"metodo"    :"ping",
+           "parametros": "ip tela",
+           "descrição" : "Este metodo serve para contar o tempo de resposta do servidor",
+           "info"      : "",
+           "cooldown"  : 3,
+           "funcao"    : "echo 'ping'",
+           "ativa"     : true
+         },
+         {
+           "metodo"    :"default",
+           "parametros": "",
+           "descrição" : "Este é o método default e não deve aceitar parâmetros",
+           "info"      : "",
+           "cooldown"  : 3,
+           "funcao"    : "echo 'pong'",
+           "ativa"     : true
+         }
+       ]
+    }
+  ]
+}
